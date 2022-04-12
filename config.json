@@ -1,0 +1,6 @@
+{
+    "port": 5050,
+    "subdomain": "llama-server",
+        "host": "dog",
+        "local_host": "dog-hosting"
+}
