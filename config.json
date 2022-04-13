@@ -1,4 +1,4 @@
 {
-    "port": 1229,
+    "port": 6969,
     "host": "https://llama-server.tld"
 }
