@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-// const localtunnel = require("./lib/localtunnel");
+const localtunnel = require("./lib/localtunnel");
 const config = require("./config.json");
 
 const router = express.Router();
@@ -14,6 +14,6 @@ app.use("/finance", require(__dirname + "/routers/finance/router"));
 app.use("/math", require(__dirname + "/routers/math/router"));
 app.use("/peeker", require(__dirname + "/routers/error/peeker/router"));
 app.listen(config.port, () => {
-	// localtunnel();
+	localtunnel();
 	console.log(`Example app listening a`);
 });
