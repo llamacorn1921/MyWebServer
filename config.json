@@ -1,4 +1,5 @@
 {
     "port": 6969,
-    "host": "https://llama-server.tld"
+    "domain": "llama-server",
+    "host": "https://dog-town.tld"
 }
